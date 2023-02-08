@@ -14,7 +14,7 @@ function setup() {
 
   //crie um sprite de trex
   trex = createSprite(50, 180, 20, 50);
-  trex.addAnimation("/assets/running", trex_running);
+  trex.addAnimation("running", trex_running);
 
   //adicione dimensão e posição ao trex
   trex.scale = 0.5;
