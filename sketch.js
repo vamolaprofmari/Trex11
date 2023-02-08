@@ -3,9 +3,9 @@ var ground, invisibleGround, groundImage;
 
 function preload() {
   trex_running = loadAnimation(
-    "/assets/trex1.png",
-    "/assets/trex3.png",
-    "/assets/trex4.png"
+    "assets/trex1.png",
+    "assets/trex3.png",
+    "assets/trex4.png"
   );
 }
 
